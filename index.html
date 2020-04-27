@@ -18,22 +18,23 @@
     
     .center {
         width: 430px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
         margin-top: 100px;
     }
     
-    .search {
-        display: block;
-        margin-left: auto;
-        margin-top: 10px;
-    }
-    
-    #image {
+     #image {
         text-align: center;
     }   
+    
+    .search {
+        margin-left: auto;
+        text-align: start;
+    }
+    
+    #text {
+        text-align: center;
+    }
+    
+   
     
     
 </style>
@@ -48,8 +49,10 @@
    </ul>
 
    <div id="image">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center">
+     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center">
    </div>
-  <input type="text" placeholder="search" class="search">
+   <div id="text">
+     <input type="text" placeholder="search" class="search">
+   </div>
 </body>
 </html>
